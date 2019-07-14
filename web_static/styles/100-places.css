@@ -1,0 +1,115 @@
+.places h1{
+    font-size: 30px;
+}
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px #ff5a5f solid;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.places article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.orderp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cabecera {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.price_by_night {
+    color: #ff5a5f;
+    border: 4px #ff5a5f solid;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 1.4%;
+    margin-left: 100px;
+}
+.price_by_night p {
+    text-align: center;
+    margin-top: 15px;
+}
+.information {
+    height: 80px;
+    border-top: 1px #dddddd solid;
+    border-bottom: 1px #dddddd solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.information p {
+    margin-top: 50px;
+}
+.max_guest {
+    width: 100px;
+    background: url("../images/icon_group.png") no-repeat;
+}
+.number_rooms {
+    width: 100px;
+    background: url("../images/icon_bed.png") no-repeat;
+}
+.number_bathrooms {
+    width: 100px;
+    background: url("../images/icon_bath.png") no-repeat;
+}
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.description {
+    text-align: justify;
+}
+.amenities_desc{
+    margin-top: 40px;
+}
+.amenitites_desc h2 {
+    font-size: 16px;
+    border-bottom: 1px #dddddd solid;
+}
+.imgam {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+}
+.addtv {
+    background: url("../images/icon_tv.png") no-repeat;
+}
+.addwifi {
+    background: url("../images/icon_wifi.png") no-repeat;
+}
+.addpet {
+    background: url("../images/icon_pets.png") no-repeat;
+}
+.imgam p {
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100px;
+}
+.reviews {
+    margin-top: 40px;
+}
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px #dddddd solid;
+}
+.reviews li {
+    list-style: none;
+    margin-left: -30px;
+}
+.reviews li h3 {
+    font-size: 14px;
+}
+.reviews li p {
+    font-size: 12px;
+}
